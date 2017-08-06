@@ -1,10 +1,6 @@
 /**
  * Restroom Attendant pi-bot.
  *
- * This Raspberry pi bot was designed to fix a small inconvencience at my work place. In an office with about 12 
- * employees and only one restroom tucked away out of site, our coworkers needs to use said restroom often overlapped.  
- * Many times I found myself going back and forth to my desk after seeing the "Occupied" sign on the restroom door. 
- *
  * This bot is designed to keep track of the current status of the restroom and to notify the proper channels when the
  * status changes. I use passive infrared sensors to detect motion since they are cheap and easy to use, theyre also 
  * less creepy than a camera.
@@ -12,6 +8,7 @@
  * NOTE: Most PIR sensors have a couple of knobs that allow you to adjust the sensitivity and time-delay. These settings
  * may vary depending on your environment.
  */
+
 // Include dependencies.
 var Gpio = require('onoff').Gpio;
 
