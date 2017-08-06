@@ -1,0 +1,14 @@
+{
+  "name": "Restroom Attendant",
+  "version": "1.0.0",
+  "description": "Motion detection script using PIR sensor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sgarza",
+  "license": "ISC",
+  "dependencies": {
+    "onoff": "^1.1.5"
+  }
+}
